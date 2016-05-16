@@ -1,0 +1,51 @@
+body, html { background-color: #669999; }
+
+#package-header {
+	color: white;
+}
+
+.container {
+	width: 100% !important; 
+}
+
+#package-list {
+	list-style: none;
+	display: inline-block;
+  background-image: -webkit-linear-gradient(top, #e6e6e6, #ffffff);
+  background-image: -moz-linear-gradient(top, #e6e6e6, #ffffff);
+  background-image: -ms-linear-gradient(top, #e6e6e6, #ffffff);
+  background-image: -o-linear-gradient(top, #e6e6e6, #ffffff);
+  background-image: linear-gradient(to bottom, #e6e6e6, #ffffff);
+  padding-right: 10px;
+}
+#package-list-recommended {
+	list-style: none;
+	display: inline-block;
+  background-image: -webkit-linear-gradient(top, #00ff00, #00cc00);
+  background-image: -moz-linear-gradient(top, #00ff00, #00cc00);
+  background-image: -ms-linear-gradient(top, #00ff00, #00cc00);
+  background-image: -o-linear-gradient(top, #00ff00, #00cc00);
+  background-image: linear-gradient(to bottom, #00ff00, #00cc00);
+  padding-right: 10px;
+}
+
+#package-list-name {
+	font-size: 1.4em;
+}
+
+p#package-recommended {
+	font-size: 1.6em;
+}
+
+#package-list-feature {
+	border-top: 1px solid white;
+}
+
+#select-package {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+#button-select {
+	color: black;
+}
