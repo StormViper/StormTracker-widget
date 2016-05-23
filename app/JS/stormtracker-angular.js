@@ -12,16 +12,13 @@ StormTrack.controller("homeController", function($scope) {
 	$scope.hello = "Hello world";
 });
 
-StormTrack.controller("packageController", function($scope) {
-	$scope.solo = function() {
-		alert("SOLO");
-	};
+StormTrack.controller("packageController", function($scope, $location) {
 
-	$scope.starter = function() {
-		alert("STARTER");
-	};
 
-	$scope.business = function() {
-		alert("BUSINESS");
-	};
+	if($location.search().email){
+		alert("api call");
+		}else{
+		alert("fail and return");
+		return
+	}
 });
